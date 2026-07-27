@@ -5,6 +5,10 @@ concurrency:
   cancel-in-progress: false
 
 on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
   push:
     branches:
       - master
